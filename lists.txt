@@ -1,0 +1,49 @@
+unordered list <ul> = sequence of list is doesn't matter
+Ordered list <ol> = sequence of list is defined
+description list <dl> = needs a term and definition in the list with keys
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <body bgcolor="#D6EAF8">
+
+     <!--unordered list-->
+    <h4><u>Groceries</u></h4>
+     <ul>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+        <li>coffee-</li>
+        <ul>
+            <li>coffee beans</li>
+            <li>creamer</li>
+            <li>sugar</li>
+        </ul>
+     </ul>
+
+     <!--ordered list-->
+     <h4><u>To do list</u></h4>
+     <ol>
+        <li>eat breakfast</li>
+        <li>do workout</li>
+        <li>go to office</li>
+        <li>dinner</li>
+     </ol>
+
+     <!--description list-->
+     <h4><u>Favourite Swords</u></h4>
+     <dl style="background-color: pink;">
+        <dt><b><i>katana,</i></b></dt>
+        <dd>a long, single-edged sword used by Japanese samurai</dd>
+        <dt><b><i>talwar,</i></b></dt>
+        <dd>a type of curved sword or sabre from the Indian subcontinent</dd>
+        <dt><b><i>rapier,</i></b></dt>
+        <dd>a thin, light sharp-pointed sword used for thrusting</dd>
+        <dt><b><i>gladius,</i></b></dt>
+        <dd>a short sword used in ancient Rome by legionaries</dd>
+     </dl>
+    </body>
+    </head>
+</html>
